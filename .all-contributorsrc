@@ -1,0 +1,52 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "fpitters",
+      "name": "fpitters",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1129222?v=4",
+      "profile": "https://github.com/fpitters",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "tadomaitis",
+      "name": "Thiago Adomaitis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/20560225?v=4",
+      "profile": "https://github.com/tadomaitis",
+      "contributions": [
+        "bug",
+        "code"
+      ]
+    },
+    {
+      "login": "smenzer",
+      "name": "Scott",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/624392?v=4",
+      "profile": "http://scott.menzer.org",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "Prajeshpuri",
+      "name": "Prajeshpuri",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/34602781?v=4",
+      "profile": "https://prajeshpuri.tech/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "dotman",
+  "projectOwner": "Bhupesh-V",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}

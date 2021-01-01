@@ -1,0 +1,13 @@
+##
+## Knight Chess 
+## Art by Brent James Benton
+$the_cow = <<EOC;
+       $thoughts  
+   |\_$thoughts
+  /  .\_
+ |   ___)  
+ |    \
+ |  =  |
+ /_____\
+[_______]
+EOC
