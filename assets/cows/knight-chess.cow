@@ -1,13 +1,21 @@
 ##
 ## Knight Chess 
 ## Art by Brent James Benton
+
+$RED="\e[31m";
+$GREEN="\e[32m";
+$YELLOW="\e[33m";
+$BLUE="\e[36m";
+$BOLD="\e[1m";
+$RESET="\e[m";
+
 $the_cow = <<EOC;
-       $thoughts  
-   |\_$thoughts
-  /  .\_
+       /  
+${BLUE}${BOLD}   |\\_${BLUE}
+  /  ${RESET}.${RESET}${BLUE}\\_
  |   ___)  
- |    \
+ |    \\
  |  =  |
- /_____\
-[_______]
+ /_____\\
+[_______]${RESET}
 EOC

@@ -1,18 +1,26 @@
 ##
 ## Molayadev 
 ##
+$INVERTED="\e[107m";
+$BLINK="\e[5m";
+$RED="\e[31m";
+$GREEN="\e[92m";
+$YELLOW="\e[33m";
+$BLUE="\e[96m";
+$BOLD="\e[1m";
+$RESET="\e[m";
+
 $the_cow = <<EOC;
-                $thoughts
-   +-------------+$thoughts
+                /
+${BOLD}${BLUE}   +-------------+
    |.-----------.|       
-   ||           ||       
-   || MOLAYADEV ||       
-   ||           ||       
+   ||${RESET}${INVERTED}           ${RESET}${BLUE}||       
+   ||${RESET}${INVERTED}${BLINK}${GREEN} MOLAYADEV ${RESET}${BLUE}||        
+   ||${RESET}${INVERTED}           ${RESET}${BLUE}||        
    |+-----------+|      
    +--.-------.--+     
   / /===========\\ \\   
- / /=============\\ \\   
-/___________________\\   
-\\___________________/   
+ /_________________\\   
+ \\_________________/   
 
 EOC
